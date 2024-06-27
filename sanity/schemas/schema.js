@@ -1,8 +1,8 @@
 import post from "./post";
 import user from "./user";
 import comment from "./comment";
-import postBy from "./postBy";
+import postedBy from "./postedBy";
 
 export const schema = {
-  types: [post, user, postBy, comment],
+  types: [post, user, postedBy, comment],
 };
